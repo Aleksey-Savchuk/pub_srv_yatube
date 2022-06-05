@@ -1,0 +1,9 @@
+USER_NAME = 'auth'
+USER_CLIENT = 'StasBasov'
+USER_CLIENT2 = 'Stels'
+TEST_SLUG = 'test-slug'
+TEST_TITLE = 'Тестовый заголовок'
+TEST_DESCRIPTION = 'Тестовое описание'
+TEST_TEXT = 'Тестовая группа'
+COUNT_POSTS = 16
+TEXT_EDIT = 'Тестовый текст'

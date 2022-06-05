@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% load thumbnail %}
+{% block title %}
+  Записи сообщества: Лев Толстой – зеркало русской революции.
+{% endblock %}
+{% block content %}
+  <div class="container">
+    <h1>{{group.title}}</h1>
+    <p>
+      {{group.description}}
+    </p>
+    {% for post in page_obj %}
+      {% include 'posts/post_list.html' %}
+    {% endfor %} 
+    {% include 'posts/includes/paginator.html' %}  
+  </div>
+{% endblock %}

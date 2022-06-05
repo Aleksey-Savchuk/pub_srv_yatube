@@ -1,0 +1,7 @@
+CREATE_HTML = 'posts/create_post.html'
+DETAIL_HTML = 'posts/post_detail.html'
+EDIT_HTML = 'posts/create_post.html'
+FOLLOW_HTML = 'posts/follow.html'
+GROUP_LIST_HTML = 'posts/group_list.html'
+INDEX_HTML = 'posts/index.html'
+PROFILE_HTML = 'posts/profile.html'
